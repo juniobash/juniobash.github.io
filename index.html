@@ -1,35 +1,34 @@
-<!---
-      // colocar sempre 2 tabs para melhor leitura do codigo
-      
-      hero :      https://bulma.io/documentation/layout/hero/
-      section :   https://bulma.io/documentation/layout/section/
-      image :     https://bulma.io/documentation/elements/image/
-      columns:    https://bulma.io/documentation/columns/basics/
-      media:      https://bulma.io/documentation/layout/media-object/
-      icon:       https://bulma.io/documentation/elements/icon/
-      breadcrumb: https://bulma.io/documentation/componenets/breadcrumb/
-      level:      https://bulma.io/documentation/layout/level/
--->
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-        <meta charset=""uft-8>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1">
         <title>Hello Bulma!</title>
         <link rel="stylesheet"
               href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
         >
+        <style>
+.center {
+    display: flex;
+    justify-content: center;
+    align-itens: center;
+}
+        </style>
     </head>
     <body>
-        <section class="section">
-            <div class="container">
-                <h1 class="title">
-                    Hello World
-                </h1>
-                <p class="subtitle">
-                    My firts website with <strong> Bulma CSS</strong>
-                </p>
+        <section class="hero is-fullheight has-background-black">
+            <div class="hero-body">
+                <!-- ... -->
+                <div class="container">
+                    <figure class="image center">
+                        <img src="images/bulma-logo-white.png"
+                             style="max-width: 512px;"
+                             alt="image in 128 pixel">
+                    </figure>
+                </div>
             </div>
         </section>
+
     </body>
 </html>
