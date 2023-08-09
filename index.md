@@ -1,2 +1,2 @@
-# Samuel Oliveira
+# :snake: pythonista  
 `print("Hello cruel world!")`
